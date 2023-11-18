@@ -23,9 +23,14 @@ img {
     justify-content:space-between
 }
 
-.logo-texto{
+.logo-texto{ /*Pai*/
+    display: flex;
+    align-items:center;
+}
+.logo-texto h1{  /*Filho*/
     margin-left: 10px; /*margem de um texto para o outro*/
     color: white;
+    display: inline-block;  /*serve para que a lista fique na horizontal. [uma do lado da outra.] */
 }
 
 .menu li{  /*aqui é como a lista irá ficar, tipo: horizontal/vestical/ com ou sem o ícone da bolinha ao lado de casa linha e etc*/
