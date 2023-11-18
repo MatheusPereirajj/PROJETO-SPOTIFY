@@ -30,7 +30,7 @@ img {
 .logo-texto h1{  /*Filho*/
     margin-left: 10px; /*margem de um texto para o outro*/
     color: white;
-    display: inline-block;  /*serve para que a lista fique na horizontal. [uma do lado da outra.] */
+    display: inline-block;  /*serve para organizar os elementos lado a lado e definirmos as propriedades de largura e altura, pois elas não serão ignoradas pelo navegador. */
 }
 
 .menu li{  /*aqui é como a lista irá ficar, tipo: horizontal/vestical/ com ou sem o ícone da bolinha ao lado de casa linha e etc*/
