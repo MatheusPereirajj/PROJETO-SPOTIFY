@@ -56,3 +56,7 @@ li a:hover{ /*serve para config qunado o mouse está encima da lista ( lar / loj
     padding-left: 10px;
     padding-right: 10px;
 }
+body{ 
+    background-color: rgba(0, 0, 0, 0.90) ;
+
+}
