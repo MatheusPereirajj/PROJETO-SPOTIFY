@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%; /*largura do backgroud na janela*/
+    background-color: #1ed760;
+    display: flex; /* botei esse propriedade para deixar tudo na msm linha e não uma embaixo da outra. (sentido horizontal.)*/
+    justify-content: space-between; /*essa propriedade deixar os elementos um pouco afastado do canto da tela. (MENU) */
+    align-items: center;
+    height: 100px; /*novamente esse comando, informando cima/baixo ; direita/esquerda.*/
+}
+img {
+    width: 80px ;
+    height: 80px;
+}
+
+.container-logo{
+    display:flex; /*apliquei essa propriedade novamente para deixar mais organizado na horizontal */
+    align-items: center; /* essa propriedade serve para centralizar o texto */
+    justify-content:space-between
+}
+
+.logo-texto{
+    margin-left: 10px; /*margem de um texto para o outro*/
+    color: white;
+}
+
+.menu li{  /*aqui é como a lista irá ficar, tipo: horizontal/vestical/ com ou sem o ícone da bolinha ao lado de casa linha e etc*/
+    display: inline-block; /*serve para que a lista fique na horizontal. [uma do lado da outra.] */
+    margin: 0 10px ; /* o primeiro numero(zero) se refere o "px" de cima e baixo // o segundo numero (10) se refere aos lados dir e esq.*/
+
+
+}
+
+.menu li a{ /* aqui eu vou informar com ficará o formato da letra, cor, espaço e etc.*/
+    font-size: 24px;
+    text-decoration: none;
+    color: white ;
+    text-transform: uppercase; /*deixa todas as letras maiusculas*/
+    /*nessa parte de baixo, eu vou config a área de contato da lista*/
+    /*background-color: black; --> essa propriedade eu coloquei só para ter uma base de até onde eu conseguiria clicar na minha lista*/ 
+    border-radius: 5px;
+}
+
+li a:hover{ /*serve para config qunado o mouse está encima da lista ( lar / lojas / contato)*/
+    background-color: #000;
+    color: #1ed760;
+    padding-left: 10px;
+    padding-right: 10px;
+}
